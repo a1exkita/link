@@ -21,7 +21,7 @@ var bodyParser = require('body-parser');
 var MongoClient = require('mongodb').MongoClient;
 var ObjectId = require('mongodb').ObjectId;
 
-console.log(process.env.PORT)
+console.log(process.env.MONGODBPASS)
 var mongoURL = "mongodb+srv://ktsht:"+process.env.MONGODBPASS+"@cluster0.6xtdb.gcp.mongodb.net/link?retryWrites=true&w=majority"
 
 // var mongoHost = "classmongo.engr.oregonstate.edu";
