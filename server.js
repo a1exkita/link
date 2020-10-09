@@ -161,7 +161,8 @@ app.post('/postt', function(req, res){
 app.get('/maxPrice/:maxPrice', function(req, res, next){
         var houseCollection = mongoDB.collection('house');
         var maxPrice = req.params.maxPrice;
-        houseCollection.find({'house.0.price':{$lte: maxPrice}}).toArray(function(err, houseDocs){
+        console.log(maxPrice)
+        houseCollection.find({"house.0.price" :{$lte: eval(maxPrice)}}).toArray(function(err, houseDocs){
                 if(err){
                         res.status(500).send("Error connecting to DB.");
                 }
@@ -169,13 +170,6 @@ app.get('/maxPrice/:maxPrice', function(req, res, next){
                         house: houseDocs
                 });
         })
-        // var myobj = {price: eval(maxPrice)};
-        // houseCollection.insertOne(myobj, function(err, res){
-        //         if(err){
-        //                 res.status(500).send("Error connecting to DB.");
-        //         }
-        //         console.log("insertData successfully");
-        // });
 });
 
 app.get('/major/:major', function(req, res, next){

@@ -16,7 +16,7 @@ object-fit: cover;
 }
 
 
-.logo img{position: relative;top: 10%;float: left;width: 100px;height: 100px;}
+/* .logo img{position: relative;top: 10%;float: left;width: 100px;height: 100px;} */
 
 .logo {
   position: fixed;
@@ -57,12 +57,12 @@ object-fit: cover;
 
 .sign-up{
   font-family: 'Rajdhani', sans-serif;
-  font-size: 45px; 
+  font-size: 28px; 
   /* Fallback color */
-  background-color: #FFDD0066; 
+  background-color: #FFDD00; 
   /* Black w/opacity/see-through */color: 
   white;font-weight: bold;
-  /* border: 3px solid #f1f1f1; */
+  border: 3px solid #f1f1f1;
   position: absolute;
   top: 67%;left: 50%;
   transform: translate(-50%, -50%);

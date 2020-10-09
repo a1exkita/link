@@ -41,6 +41,7 @@ acceptPrice[0].addEventListener('click', function(event){
         event.preventDefault();
         console.log("== insert button clicked, event.target:", event.target);
         var textInput = document.getElementsByClassName('price-text-input'); // input from user for flitering price
+        console.log("Price:", textInput[0].value);
         var flag;
         while(flag){
                 if(textInput[0].value){
