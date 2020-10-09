@@ -39,7 +39,10 @@
 
             <div class="extra-details">
 
-                <div id="pricePM">Price/Month: ${{house.0.price}}</div>
+                <div class="price">
+                    <p id="pricePM">${{house.0.price}}</p>
+                    <p>per month</p>
+                </div>
                 <ul>
                     <li>WALK: {{house.0.walking}} minutes</li>
                     <li>BIKE: {{house.0.bike}} minutes</li>

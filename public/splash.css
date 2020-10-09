@@ -18,34 +18,40 @@ object-fit: cover;
 
 /* .logo img{position: relative;top: 10%;float: left;width: 100px;height: 100px;} */
 
-.logo {
+/* .logo {
   position: fixed;
   top: 10px;
   display: inline-flex;
   margin-left: 20px;
   margin-top: 10px;
-}
+} */
 
-.logo h1 {
+/* .logo h1 {
   font-family: 'Rajdhani', sans-serif;
   position: relative;
   font-size: 103px;
   color: #FFDD00;
   margin: 20px 0 0 23px;
   font-size: 47pt;
-  /* top: -5%; */
-  /* left: 2%; */
+} */
+
+.logo {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 33%;
+  left: 47%;
 }
 
 .slogan{
   font-family: 'Rajdhani', sans-serif;
-  font-size: 135px; /* Fallback color */
+  font-size: 60px; /* Fallback color */
   /* background-color: #FFDD0066; */ /* Black w/opacity/see-through */
   color: #FFDD00;
   font-weight: bold;
   /* border: 3px solid #f1f1f1; */
   position: absolute;
-  top: 38%;
+  top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;

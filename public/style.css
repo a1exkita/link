@@ -35,12 +35,16 @@ a {
 }
 
 a.plus {
-    border: solid 3px #FFDD00;
-    font-size: 16pt;
+    border: solid 2px #FFDD00;
+    /* background-color: #FFDD00; */
+    text-align: center;
+    width: 59px;
+    border-radius: 50%;
+    font-size: 35pt;
     font-weight: 900;
     padding: 6px;
     position: fixed;
-    top: 17px;
+    top: 88%;
     left: 92%;
 }
 

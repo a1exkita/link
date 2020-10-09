@@ -70,8 +70,8 @@ body{
 
 .info-container{
     display:flex;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 40px;
+    padding-top: 35px;
 }
 
 .icon{
@@ -99,11 +99,26 @@ body{
     /*border: solid orange;*/
 }
 
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.price{
+    display: flex;
+    /* background-color: #ffdd00; */
+    width: 200px;
+    height: 60px;
+}
+
 #pricePM{
     font-style: none;
     font-size: 45px;
-    background-color: #ffdd00;
     text-align: center;
+}
+
+#month{
+    font-size: 15px;
 }
 
 .extra-details-container{
