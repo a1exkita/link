@@ -1,2 +1,2 @@
 # link
-https://cryptic-savannah-61329.herokuapp.com/splash.html
+https://link-mates-app.herokuapp.com/link
